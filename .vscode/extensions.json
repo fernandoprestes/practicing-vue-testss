@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "octref.vetur",
+    "znck.vue",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
