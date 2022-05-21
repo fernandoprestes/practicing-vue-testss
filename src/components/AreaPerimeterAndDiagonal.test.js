@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
 import AreaPerimeterAndDiagonal from './AreaPerimeterAndDiagonal.vue';
 
-describe('Exercises 1: Price of land', () => {
+describe('Exercises 2: Area perimeter and diagonal', () => {
   const wrapper = shallowMount(AreaPerimeterAndDiagonal);
   const baseRectangle = wrapper.find('#baseRectangle');
   const heightRectangle = wrapper.find('#heightRectangle');
