@@ -18,3 +18,8 @@
     </div>
   </div>
 </template>
+<style lang="css">
+  .router-link-active.router-link-exact-active {
+    color: #fff;
+  }
+</style>

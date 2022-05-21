@@ -1,19 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 const Home = () => import('../pages/Home/index.vue');
-const About = () => import('../pages/About/index.vue');
+const PriceOfLand = () => import('../components/PriceOfLand.vue');
 
 export const routes = [
   {
     path: '/',
-    name: 'Home',
     component: Home,
+    children: [
+      {
+        path: '/price-of-land',
+        component: PriceOfLand,
+      },
+    ],
   },
-  {
-    path: '/about',
-    name: 'About',
-    component: About,
-  },
+
   {
     path: '/:pathMatch(.*)*',
     redirect: { name: 'Home' },
