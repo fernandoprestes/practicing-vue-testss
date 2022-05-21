@@ -12,6 +12,7 @@
           <router-link to="/price-of-land">01. O preço de um terreno</router-link>
           <router-link to="/area-perimeter-and-diagonal">02. Area, perimetro e diagonal</router-link>
           <router-link to="/average-between-ages">03. Media entre idades</router-link>
+          <router-link to="/grocery-cashier">04. Finanças do mercado</router-link>
         </ul>
       </div>
       <div class="flex w-full items-center justify-center p-4 md:h-[100vh-40px] md:w-1/2">
