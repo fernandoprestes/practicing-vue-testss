@@ -21,7 +21,7 @@
     "@vue/test-utils": "2.0.0-rc.21",
     "@vue/vue3-jest": "27",
     "autoprefixer": "^10.4.5",
-    "babel-jest": "^28.1.0",
+    "babel-jest": "^27.5.1",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-html": "^6.2.0",

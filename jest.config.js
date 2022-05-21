@@ -5,5 +5,5 @@ module.exports = {
     '^.+\\.vue$': '@vue/vue3-jest',
     '.+\\.(css|scss|png|jpg|svg)$': 'jest-transform-stub',
   },
-  testMatch: ['<rootDir>/**/*.spec.js'],
+  testMatch: ['<rootDir>/**/*.test.js'],
 };

@@ -16,7 +16,7 @@
   "rules": { "prettier/prettier": "error", "vue/require-default-prop": "off", "vue/multi-word-component-names": "off" },
   "overrides": [
     {
-      "files": ["**/*.spec.js"],
+      "files": ["**/*.spec.js", "**/*.test.js"],
       "env": {
         "jest": true
       }
