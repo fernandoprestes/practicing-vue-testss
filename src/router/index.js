@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 const Home = () => import('../pages/Home/index.vue');
 const PriceOfLand = () => import('../components/PriceOfLand.vue');
 const AreaPerimeterAndDiagonal = () => import('../components/AreaPerimeterAndDiagonal.vue');
+const AverageBetweenAges = () => import('../components/AverageBetweenAges.vue');
 
 export const routes = [
   {
@@ -16,6 +17,10 @@ export const routes = [
       {
         path: '/area-perimeter-and-diagonal',
         component: AreaPerimeterAndDiagonal,
+      },
+      {
+        path: '/average-between-ages',
+        component: AverageBetweenAges,
       },
     ],
   },
