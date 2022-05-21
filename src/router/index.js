@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const Home = () => import('../pages/Home/index.vue');
 const PriceOfLand = () => import('../components/PriceOfLand.vue');
+const AreaPerimeterAndDiagonal = () => import('../components/AreaPerimeterAndDiagonal.vue');
 
 export const routes = [
   {
@@ -11,6 +12,10 @@ export const routes = [
       {
         path: '/price-of-land',
         component: PriceOfLand,
+      },
+      {
+        path: '/area-perimeter-and-diagonal',
+        component: AreaPerimeterAndDiagonal,
       },
     ],
   },
