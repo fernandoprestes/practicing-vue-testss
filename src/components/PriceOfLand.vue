@@ -39,7 +39,7 @@
   <div class="w-64 rounded-xl bg-slate-200 p-4 shadow">
     <div class="flex flex-col items-center justify-center gap-2">
       <label for="landWidth">
-        <span>Largura</span>
+        <span>Largura do terreno</span>
         <input
           id="landWidth"
           v-model="land.width"
@@ -50,7 +50,7 @@
         />
       </label>
       <label for="landCompliment">
-        <span>Comprimento</span>
+        <span>Comprimento do terreno</span>
         <input
           id="landCompliment"
           v-model="land.compliment"
@@ -61,7 +61,7 @@
         />
       </label>
       <label for="landPrice">
-        <span>Preço do m²</span>
+        <span>Preço por m²</span>
         <input
           id="landPrice"
           v-model="land.price"
@@ -81,7 +81,7 @@
     </button>
     <div>
       <p>
-        Area do terreno: <span id="resultArea">{{ formatResultArea }}</span>
+        Área do terreno: <span id="resultArea">{{ formatResultArea }}</span>
       </p>
       <p>
         Preço do terreno: <span id="resultMoney">{{ formatMoney }}</span>
