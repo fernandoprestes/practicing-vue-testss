@@ -1,6 +1,8 @@
-# Template de projeto Vue3
+# Vue3 testess com Jest
 
-Este repositório serve como um template para projetos SPA com vite e vue3:
+Projeto iniciado com o [Boilerplate-vue3-js](https://github.com/fernandoprestes/boilerplate-vue3-js), com a finalidade de aprender jest e praticar Vue3.
+
+> ✨ Pratique habilidades existentes e aprenda novas...
 
 ## Tecnologias
 
@@ -13,6 +15,8 @@ Este repositório serve como um template para projetos SPA com vite e vue3:
 - [Vue Router](https://router.vuejs.org/)
 - [icones.js](https://icones.js.org/)
 - [iconify](https://icon-sets.iconify.design/ic/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Vue-test-utils](https://test-utils.vuejs.org/)
 
 ### Estrutura de Pastas
 
@@ -23,7 +27,6 @@ Este repositório serve como um template para projetos SPA com vite e vue3:
   - `icon`: Componentes de icon
 - `pages/`: Paginas da aplicação
   - `Home`: Pagina principal `("/")`
-  - `About`: Pagina secundaria `("/about")`
 - `router`: Rotas das pages
 - `tailwind.config.js`: Configurações do tailwind
 - `vite.config.js`: Configurações do vite
@@ -42,8 +45,9 @@ $ yarn dev
 ## Extensões recomendadas para o VScode
 
 - [VSCode](https://code.visualstudio.com/)
-- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-- [Vue](https://marketplace.visualstudio.com/items?itemName=znck.vue)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Vue 3 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets)
+- [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
