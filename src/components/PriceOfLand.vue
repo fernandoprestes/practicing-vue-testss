@@ -31,8 +31,7 @@
 
   const formatResultArea = computed(() => {
     const areaFixedNumber = landArea.value.toFixed(2);
-    const areaNumberFormatted = areaFixedNumber;
-    return areaNumberFormatted;
+    return areaFixedNumber;
   });
 </script>
 <template>
@@ -74,18 +73,18 @@
     </div>
     <button
       id="button"
-      class="my-4 w-full rounded-md bg-blue-400 py-1"
+      class="mt-4 w-full rounded-md bg-blue-400 py-1"
       @click="handleClick"
     >
       Calcular
     </button>
-    <div>
-      <p>
-        Área do terreno: <span id="resultArea">{{ formatResultArea }}</span>
-      </p>
-      <p>
-        Preço do terreno: <span id="resultMoney">{{ formatMoney }}</span>
-      </p>
-    </div>
+  </div>
+  <div class="mt-2 w-64 rounded-xl bg-slate-200 p-4 shadow">
+    <p>
+      Área do terreno: <span id="resultArea">{{ formatResultArea }}</span>
+    </p>
+    <p>
+      Preço do terreno: <span id="resultMoney">{{ formatMoney }}</span>
+    </p>
   </div>
 </template>

@@ -6,7 +6,7 @@
     total: null,
   });
 
-  const payment = ref(0);
+  const payment = ref(null);
   const message = ref(null);
 
   const handleClick = () => {
